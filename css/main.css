@@ -135,7 +135,14 @@ img{
 }
 
 
+@media ( max-width : 768px ) {
 
+.box-wrapper{
+	
+	margin: 30px auto;
+}
+
+}
 
 
 
