@@ -88,7 +88,7 @@ img{
 
 .box-wrapper{
 	
-	margin: 200px auto;
+	margin: 200px auto 0;
 }
 
 .logo{
@@ -139,7 +139,7 @@ img{
 
 .box-wrapper{
 	
-	margin: 30px auto;
+	margin: 30px auto 0;
 }
 
 }
