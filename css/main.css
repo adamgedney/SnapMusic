@@ -45,7 +45,8 @@ list-style: none;
 
 
 body{
-background: #000;
+background: url("../images/snap_bg.jpg") #000;
+background-attachment: cover;
 color: #6e6e6e;
 font: 62.5% "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 }
@@ -87,8 +88,11 @@ img{
 /*--------------------------------------End General / Start Main------------------------------------*/
 
 .box-wrapper{
-	
-	margin: 200px auto 0;
+	margin: 60px auto 0;
+}
+
+.box-wrapper:first-child{
+	border-right: solid 1px #83008b;
 }
 
 .logo{
@@ -98,11 +102,11 @@ img{
 }
 
 .social-icons{
-	margin-bottom:20px;
+	margin-bottom: 70px;
 }
 
 .social-icons ul{
-	width: 37%;
+	width: 220px;
 	margin: 0 auto;
 }
 
@@ -115,31 +119,22 @@ img{
 }
 
 .soundcloud-frame{
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 }
 
 /*------------------------------------------phone query-------------------------------------------------*/
-@media ( max-width : 588px ) {
-
-.social-icons img{
-	width: 40px;
-	height: 39px;
-}
-
-.social-icons ul{
-	width: 33%;
-	margin: 0 auto;
-}
-
-}
 
 
 @media ( max-width : 768px ) {
 
-.box-wrapper{
-	
-	margin: 30px auto 0;
+.box-wrapper:last-child{
+	padding-top:20px;
+	border-top: solid 1px #83008b;
+}
+
+.box-wrapper:first-child{
+	border-right: none;
 }
 
 }
