@@ -45,7 +45,7 @@ list-style: none;
 
 
 body{
-background: #fafafa;
+background: #000;
 color: #6e6e6e;
 font: 62.5% "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 }
@@ -80,8 +80,63 @@ text-decoration: none;
 color: #08298A;
 }
 
+img{
+	max-width: 100%;
+}
 
 /*--------------------------------------End General / Start Main------------------------------------*/
+
+.box-wrapper{
+	
+	margin: 200px auto;
+}
+
+.logo{
+	width: 233px;
+	margin: 0 auto 20px;
+	overflow: hidden;
+}
+
+.social-icons{
+	margin-bottom:20px;
+}
+
+.social-icons ul{
+	width: 37%;
+	margin: 0 auto;
+}
+
+.social-icons ul li{
+	display: inline;
+}
+
+.social-icons a:hover{
+	opacity: .5;
+}
+
+.soundcloud-frame{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*------------------------------------------phone query-------------------------------------------------*/
+@media ( max-width : 588px ) {
+
+.social-icons img{
+	width: 40px;
+	height: 39px;
+}
+
+.social-icons ul{
+	width: 33%;
+	margin: 0 auto;
+}
+
+}
+
+
+
+
 
 
 
