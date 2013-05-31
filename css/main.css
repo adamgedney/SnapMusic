@@ -91,9 +91,9 @@ img{
 	margin: 60px auto 0;
 }
 
-.box-wrapper:first-child{
-	border-right: solid 1px #83008b;
-}
+/*.box-wrapper:first-child{
+	border-right: solid 1px #3a003a;
+}*/
 
 .logo{
 	width: 233px;
@@ -116,6 +116,7 @@ img{
 
 .social-icons a:hover{
 	opacity: .5;
+	transition-duration: 1s;
 }
 
 .soundcloud-frame{
@@ -126,18 +127,6 @@ img{
 /*------------------------------------------phone query-------------------------------------------------*/
 
 
-@media ( max-width : 768px ) {
-
-.box-wrapper:last-child{
-	padding-top:20px;
-	border-top: solid 1px #83008b;
-}
-
-.box-wrapper:first-child{
-	border-right: none;
-}
-
-}
 
 
 
